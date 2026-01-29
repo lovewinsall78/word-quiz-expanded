@@ -1,1 +1,1343 @@
-
+[
+  {
+    "answer": "cat",
+    "image": "assets/cat.svg",
+    "category": "Animals",
+    "sentences": [
+      "My cat likes to sleep on the sofa.",
+      "The cat drinks milk in the morning."
+    ]
+  },
+  {
+    "answer": "dog",
+    "image": "assets/dog.svg",
+    "category": "Animals",
+    "sentences": [
+      "The dog runs in the yard.",
+      "My dog wags its tail when happy."
+    ]
+  },
+  {
+    "answer": "rabbit",
+    "image": "assets/rabbit.svg",
+    "category": "Animals",
+    "sentences": [
+      "A rabbit has long ears.",
+      "The rabbit eats carrots."
+    ]
+  },
+  {
+    "answer": "tiger",
+    "image": "assets/tiger.svg",
+    "category": "Animals",
+    "sentences": [
+      "A tiger has black stripes.",
+      "The tiger is a wild animal."
+    ]
+  },
+  {
+    "answer": "lion",
+    "image": "assets/lion.svg",
+    "category": "Animals",
+    "sentences": [
+      "The lion is called the king of animals.",
+      "A lion has a loud roar."
+    ]
+  },
+  {
+    "answer": "bear",
+    "image": "assets/bear.svg",
+    "category": "Animals",
+    "sentences": [
+      "The bear is big and strong.",
+      "Bears can live in forests."
+    ]
+  },
+  {
+    "answer": "panda",
+    "image": "assets/panda.svg",
+    "category": "Animals",
+    "sentences": [
+      "A panda eats bamboo.",
+      "The panda looks cute and calm."
+    ]
+  },
+  {
+    "answer": "monkey",
+    "image": "assets/monkey.svg",
+    "category": "Animals",
+    "sentences": [
+      "Monkeys like to climb trees.",
+      "The monkey eats a banana."
+    ]
+  },
+  {
+    "answer": "elephant",
+    "image": "assets/elephant.svg",
+    "category": "Animals",
+    "sentences": [
+      "An elephant is very large.",
+      "The elephant has a long trunk."
+    ]
+  },
+  {
+    "answer": "giraffe",
+    "image": "assets/giraffe.svg",
+    "category": "Animals",
+    "sentences": [
+      "A giraffe has a long neck.",
+      "The giraffe eats leaves from tall trees."
+    ]
+  },
+  {
+    "answer": "zebra",
+    "image": "assets/zebra.svg",
+    "category": "Animals",
+    "sentences": [
+      "A zebra has black and white stripes.",
+      "Zebras run fast on the grassland."
+    ]
+  },
+  {
+    "answer": "horse",
+    "image": "assets/horse.svg",
+    "category": "Animals",
+    "sentences": [
+      "The horse can run quickly.",
+      "She rides a horse on the farm."
+    ]
+  },
+  {
+    "answer": "cow",
+    "image": "assets/cow.svg",
+    "category": "Animals",
+    "sentences": [
+      "The cow gives milk.",
+      "Cows eat grass in the field."
+    ]
+  },
+  {
+    "answer": "pig",
+    "image": "assets/pig.svg",
+    "category": "Animals",
+    "sentences": [
+      "The pig is pink.",
+      "Pigs can be very smart."
+    ]
+  },
+  {
+    "answer": "sheep",
+    "image": "assets/sheep.svg",
+    "category": "Animals",
+    "sentences": [
+      "The sheep has soft wool.",
+      "Sheep live on farms."
+    ]
+  },
+  {
+    "answer": "chicken",
+    "image": "assets/chicken.svg",
+    "category": "Animals",
+    "sentences": [
+      "The chicken lays eggs.",
+      "A chicken has feathers."
+    ]
+  },
+  {
+    "answer": "duck",
+    "image": "assets/duck.svg",
+    "category": "Animals",
+    "sentences": [
+      "A duck swims in the pond.",
+      "The duck has a flat beak."
+    ]
+  },
+  {
+    "answer": "eagle",
+    "image": "assets/eagle.svg",
+    "category": "Animals",
+    "sentences": [
+      "An eagle can fly high.",
+      "The eagle has sharp eyes."
+    ]
+  },
+  {
+    "answer": "owl",
+    "image": "assets/owl.svg",
+    "category": "Animals",
+    "sentences": [
+      "An owl is active at night.",
+      "The owl hoots softly."
+    ]
+  },
+  {
+    "answer": "frog",
+    "image": "assets/frog.svg",
+    "category": "Animals",
+    "sentences": [
+      "A frog can jump far.",
+      "Frogs live near water."
+    ]
+  },
+  {
+    "answer": "snake",
+    "image": "assets/snake.svg",
+    "category": "Animals",
+    "sentences": [
+      "Some snakes are harmless.",
+      "The snake moves without legs."
+    ]
+  },
+  {
+    "answer": "turtle",
+    "image": "assets/turtle.svg",
+    "category": "Animals",
+    "sentences": [
+      "A turtle has a hard shell.",
+      "The turtle walks slowly."
+    ]
+  },
+  {
+    "answer": "butterfly",
+    "image": "assets/butterfly.svg",
+    "category": "Animals",
+    "sentences": [
+      "A butterfly has colorful wings.",
+      "Butterflies fly from flower to flower."
+    ]
+  },
+  {
+    "answer": "bee",
+    "image": "assets/bee.svg",
+    "category": "Animals",
+    "sentences": [
+      "A bee makes honey.",
+      "Bees help flowers grow."
+    ]
+  },
+  {
+    "answer": "spider",
+    "image": "assets/spider.svg",
+    "category": "Animals",
+    "sentences": [
+      "A spider spins a web.",
+      "The spider has eight legs."
+    ]
+  },
+  {
+    "answer": "apple",
+    "image": "assets/apple.svg",
+    "category": "Food",
+    "sentences": [
+      "I eat an apple every day.",
+      "The apple is red and sweet."
+    ]
+  },
+  {
+    "answer": "banana",
+    "image": "assets/banana.svg",
+    "category": "Food",
+    "sentences": [
+      "He peels a banana.",
+      "Bananas give you energy."
+    ]
+  },
+  {
+    "answer": "orange",
+    "image": "assets/orange.svg",
+    "category": "Food",
+    "sentences": [
+      "This orange is juicy.",
+      "I like orange juice."
+    ]
+  },
+  {
+    "answer": "grape",
+    "image": "assets/grape.svg",
+    "category": "Food",
+    "sentences": [
+      "Grapes grow in bunches.",
+      "Purple grapes are sweet."
+    ]
+  },
+  {
+    "answer": "strawberry",
+    "image": "assets/strawberry.svg",
+    "category": "Food",
+    "sentences": [
+      "Strawberries are bright red.",
+      "I put strawberries on yogurt."
+    ]
+  },
+  {
+    "answer": "watermelon",
+    "image": "assets/watermelon.svg",
+    "category": "Food",
+    "sentences": [
+      "Watermelon is a summer fruit.",
+      "The watermelon is big and green."
+    ]
+  },
+  {
+    "answer": "lemon",
+    "image": "assets/lemon.svg",
+    "category": "Food",
+    "sentences": [
+      "Lemon tastes sour.",
+      "I add lemon to tea."
+    ]
+  },
+  {
+    "answer": "peach",
+    "image": "assets/peach.svg",
+    "category": "Food",
+    "sentences": [
+      "The peach is soft and sweet.",
+      "Peaches smell really nice."
+    ]
+  },
+  {
+    "answer": "pear",
+    "image": "assets/pear.svg",
+    "category": "Food",
+    "sentences": [
+      "A pear is crisp.",
+      "She slices a pear for dessert."
+    ]
+  },
+  {
+    "answer": "cherry",
+    "image": "assets/cherry.svg",
+    "category": "Food",
+    "sentences": [
+      "Cherries are small and red.",
+      "I like cherry pie."
+    ]
+  },
+  {
+    "answer": "pineapple",
+    "image": "assets/pineapple.svg",
+    "category": "Food",
+    "sentences": [
+      "Pineapple has a rough skin.",
+      "Pineapple tastes sweet and sour."
+    ]
+  },
+  {
+    "answer": "mango",
+    "image": "assets/mango.svg",
+    "category": "Food",
+    "sentences": [
+      "Mango is a tropical fruit.",
+      "This mango smoothie is delicious."
+    ]
+  },
+  {
+    "answer": "bread",
+    "image": "assets/bread.svg",
+    "category": "Food",
+    "sentences": [
+      "I eat bread for breakfast.",
+      "Fresh bread smells good."
+    ]
+  },
+  {
+    "answer": "cheese",
+    "image": "assets/cheese.svg",
+    "category": "Food",
+    "sentences": [
+      "Cheese melts on pizza.",
+      "I like cheese sandwiches."
+    ]
+  },
+  {
+    "answer": "egg",
+    "image": "assets/egg.svg",
+    "category": "Food",
+    "sentences": [
+      "I boiled an egg.",
+      "Eggs are healthy protein."
+    ]
+  },
+  {
+    "answer": "rice",
+    "image": "assets/rice.svg",
+    "category": "Food",
+    "sentences": [
+      "We eat rice every day.",
+      "Rice goes well with soup."
+    ]
+  },
+  {
+    "answer": "noodle",
+    "image": "assets/noodle.svg",
+    "category": "Food",
+    "sentences": [
+      "Noodles can be spicy.",
+      "He slurps the noodles quickly."
+    ]
+  },
+  {
+    "answer": "pizza",
+    "image": "assets/pizza.svg",
+    "category": "Food",
+    "sentences": [
+      "We had pizza for dinner.",
+      "My favorite topping is cheese."
+    ]
+  },
+  {
+    "answer": "hamburger",
+    "image": "assets/hamburger.svg",
+    "category": "Food",
+    "sentences": [
+      "I ordered a hamburger.",
+      "Hamburgers have buns and meat."
+    ]
+  },
+  {
+    "answer": "sandwich",
+    "image": "assets/sandwich.svg",
+    "category": "Food",
+    "sentences": [
+      "She made a sandwich for lunch.",
+      "A sandwich is easy to carry."
+    ]
+  },
+  {
+    "answer": "salad",
+    "image": "assets/salad.svg",
+    "category": "Food",
+    "sentences": [
+      "Salad has fresh vegetables.",
+      "I add tomatoes to my salad."
+    ]
+  },
+  {
+    "answer": "soup",
+    "image": "assets/soup.svg",
+    "category": "Food",
+    "sentences": [
+      "Hot soup warms me up.",
+      "The soup smells great."
+    ]
+  },
+  {
+    "answer": "cookie",
+    "image": "assets/cookie.svg",
+    "category": "Food",
+    "sentences": [
+      "I baked cookies at home.",
+      "This cookie is crunchy."
+    ]
+  },
+  {
+    "answer": "cake",
+    "image": "assets/cake.svg",
+    "category": "Food",
+    "sentences": [
+      "We ate cake at the party.",
+      "The cake is sweet and soft."
+    ]
+  },
+  {
+    "answer": "icecream",
+    "image": "assets/icecream.svg",
+    "category": "Food",
+    "sentences": [
+      "Ice cream is cold and sweet.",
+      "I like ice cream in summer."
+    ]
+  },
+  {
+    "answer": "book",
+    "image": "assets/book.svg",
+    "category": "School",
+    "sentences": [
+      "I read a book every night.",
+      "This book is interesting."
+    ]
+  },
+  {
+    "answer": "pencil",
+    "image": "assets/pencil.svg",
+    "category": "School",
+    "sentences": [
+      "I write with a pencil in class.",
+      "Please sharpen your pencil."
+    ]
+  },
+  {
+    "answer": "pen",
+    "image": "assets/pen.svg",
+    "category": "School",
+    "sentences": [
+      "I sign my name with a pen.",
+      "The pen has blue ink."
+    ]
+  },
+  {
+    "answer": "eraser",
+    "image": "assets/eraser.svg",
+    "category": "School",
+    "sentences": [
+      "Use an eraser to fix mistakes.",
+      "My eraser is small and white."
+    ]
+  },
+  {
+    "answer": "ruler",
+    "image": "assets/ruler.svg",
+    "category": "School",
+    "sentences": [
+      "A ruler measures length.",
+      "Draw a straight line with a ruler."
+    ]
+  },
+  {
+    "answer": "notebook",
+    "image": "assets/notebook.svg",
+    "category": "School",
+    "sentences": [
+      "I take notes in my notebook.",
+      "This notebook has lined paper."
+    ]
+  },
+  {
+    "answer": "backpack",
+    "image": "assets/backpack.svg",
+    "category": "School",
+    "sentences": [
+      "My backpack is heavy today.",
+      "I put my books in my backpack."
+    ]
+  },
+  {
+    "answer": "calculator",
+    "image": "assets/calculator.svg",
+    "category": "School",
+    "sentences": [
+      "The calculator helps with math.",
+      "I used a calculator to check my answer."
+    ]
+  },
+  {
+    "answer": "computer",
+    "image": "assets/computer.svg",
+    "category": "School",
+    "sentences": [
+      "We use a computer in class.",
+      "The computer is fast."
+    ]
+  },
+  {
+    "answer": "tablet",
+    "image": "assets/tablet.svg",
+    "category": "School",
+    "sentences": [
+      "I read on my tablet.",
+      "The tablet has a touch screen."
+    ]
+  },
+  {
+    "answer": "homework",
+    "image": "assets/homework.svg",
+    "category": "School",
+    "sentences": [
+      "I finish my homework after dinner.",
+      "Homework helps me practice."
+    ]
+  },
+  {
+    "answer": "teacher",
+    "image": "assets/teacher.svg",
+    "category": "School",
+    "sentences": [
+      "My teacher explains clearly.",
+      "The teacher asks a question."
+    ]
+  },
+  {
+    "answer": "student",
+    "image": "assets/student.svg",
+    "category": "School",
+    "sentences": [
+      "Every student has a desk.",
+      "The student raises a hand."
+    ]
+  },
+  {
+    "answer": "classroom",
+    "image": "assets/classroom.svg",
+    "category": "School",
+    "sentences": [
+      "Our classroom is bright.",
+      "We clean the classroom together."
+    ]
+  },
+  {
+    "answer": "library",
+    "image": "assets/library.svg",
+    "category": "School",
+    "sentences": [
+      "We read quietly in the library.",
+      "I borrowed a book from the library."
+    ]
+  },
+  {
+    "answer": "science",
+    "image": "assets/science.svg",
+    "category": "School",
+    "sentences": [
+      "Science teaches about nature.",
+      "We did a science experiment."
+    ]
+  },
+  {
+    "answer": "history",
+    "image": "assets/history.svg",
+    "category": "School",
+    "sentences": [
+      "History tells stories from the past.",
+      "I learned about ancient cities in history."
+    ]
+  },
+  {
+    "answer": "music",
+    "image": "assets/music.svg",
+    "category": "School",
+    "sentences": [
+      "Music class is fun.",
+      "We sing in music class."
+    ]
+  },
+  {
+    "answer": "art",
+    "image": "assets/art.svg",
+    "category": "School",
+    "sentences": [
+      "I draw in art class.",
+      "Art helps me be creative."
+    ]
+  },
+  {
+    "answer": "test",
+    "image": "assets/test.svg",
+    "category": "School",
+    "sentences": [
+      "We have a test tomorrow.",
+      "I study hard for the test."
+    ]
+  },
+  {
+    "answer": "happy",
+    "image": "assets/happy.svg",
+    "category": "Feelings",
+    "sentences": [
+      "I feel happy when I help others.",
+      "She is happy because it is her birthday."
+    ]
+  },
+  {
+    "answer": "sad",
+    "image": "assets/sad.svg",
+    "category": "Feelings",
+    "sentences": [
+      "He feels sad when it rains all day.",
+      "I was sad, but I feel better now."
+    ]
+  },
+  {
+    "answer": "angry",
+    "image": "assets/angry.svg",
+    "category": "Feelings",
+    "sentences": [
+      "She is angry about the broken toy.",
+      "Take a deep breath when you feel angry."
+    ]
+  },
+  {
+    "answer": "tired",
+    "image": "assets/tired.svg",
+    "category": "Feelings",
+    "sentences": [
+      "I am tired after practice.",
+      "He went to bed early because he was tired."
+    ]
+  },
+  {
+    "answer": "excited",
+    "image": "assets/excited.svg",
+    "category": "Feelings",
+    "sentences": [
+      "I am excited for the trip.",
+      "The kids are excited to play."
+    ]
+  },
+  {
+    "answer": "nervous",
+    "image": "assets/nervous.svg",
+    "category": "Feelings",
+    "sentences": [
+      "I feel nervous before a speech.",
+      "She was nervous but did well."
+    ]
+  },
+  {
+    "answer": "scared",
+    "image": "assets/scared.svg",
+    "category": "Feelings",
+    "sentences": [
+      "The loud sound scared me.",
+      "He feels scared in the dark."
+    ]
+  },
+  {
+    "answer": "proud",
+    "image": "assets/proud.svg",
+    "category": "Feelings",
+    "sentences": [
+      "I am proud of my hard work.",
+      "She feels proud of her drawing."
+    ]
+  },
+  {
+    "answer": "surprised",
+    "image": "assets/surprised.svg",
+    "category": "Feelings",
+    "sentences": [
+      "I was surprised by the gift.",
+      "The news surprised everyone."
+    ]
+  },
+  {
+    "answer": "bored",
+    "image": "assets/bored.svg",
+    "category": "Feelings",
+    "sentences": [
+      "I feel bored with nothing to do.",
+      "Let’s play a game when we are bored."
+    ]
+  },
+  {
+    "answer": "calm",
+    "image": "assets/calm.svg",
+    "category": "Feelings",
+    "sentences": [
+      "Take slow breaths to feel calm.",
+      "The lake is calm today."
+    ]
+  },
+  {
+    "answer": "brave",
+    "image": "assets/brave.svg",
+    "category": "Feelings",
+    "sentences": [
+      "Be brave and try again.",
+      "He was brave during the storm."
+    ]
+  },
+  {
+    "answer": "kind",
+    "image": "assets/kind.svg",
+    "category": "Feelings",
+    "sentences": [
+      "She is kind to her friends.",
+      "Kind words can make people smile."
+    ]
+  },
+  {
+    "answer": "careful",
+    "image": "assets/careful.svg",
+    "category": "Feelings",
+    "sentences": [
+      "Be careful when you cross the road.",
+      "He is careful with his phone."
+    ]
+  },
+  {
+    "answer": "curious",
+    "image": "assets/curious.svg",
+    "category": "Feelings",
+    "sentences": [
+      "I am curious about space.",
+      "A curious mind asks many questions."
+    ]
+  },
+  {
+    "answer": "sun",
+    "image": "assets/sun.svg",
+    "category": "Nature",
+    "sentences": [
+      "The sun is bright today.",
+      "The sun rises in the morning."
+    ]
+  },
+  {
+    "answer": "moon",
+    "image": "assets/moon.svg",
+    "category": "Nature",
+    "sentences": [
+      "The moon is round tonight.",
+      "The moon shines at night."
+    ]
+  },
+  {
+    "answer": "star",
+    "image": "assets/star.svg",
+    "category": "Nature",
+    "sentences": [
+      "I saw a bright star.",
+      "Stars fill the night sky."
+    ]
+  },
+  {
+    "answer": "cloud",
+    "image": "assets/cloud.svg",
+    "category": "Weather",
+    "sentences": [
+      "A cloud covers the sun.",
+      "The sky has many clouds."
+    ]
+  },
+  {
+    "answer": "rain",
+    "image": "assets/rain.svg",
+    "category": "Weather",
+    "sentences": [
+      "Rain falls from the sky.",
+      "I use an umbrella in the rain."
+    ]
+  },
+  {
+    "answer": "snow",
+    "image": "assets/snow.svg",
+    "category": "Weather",
+    "sentences": [
+      "Snow is white and cold.",
+      "We made a snowman."
+    ]
+  },
+  {
+    "answer": "wind",
+    "image": "assets/wind.svg",
+    "category": "Weather",
+    "sentences": [
+      "The wind blows strongly.",
+      "Wind moves the leaves."
+    ]
+  },
+  {
+    "answer": "storm",
+    "image": "assets/storm.svg",
+    "category": "Weather",
+    "sentences": [
+      "The storm was loud.",
+      "Stay inside during a storm."
+    ]
+  },
+  {
+    "answer": "mountain",
+    "image": "assets/mountain.svg",
+    "category": "Nature",
+    "sentences": [
+      "We climbed a mountain.",
+      "The mountain is very high."
+    ]
+  },
+  {
+    "answer": "river",
+    "image": "assets/river.svg",
+    "category": "Nature",
+    "sentences": [
+      "A river flows to the sea.",
+      "We walked along the river."
+    ]
+  },
+  {
+    "answer": "ocean",
+    "image": "assets/ocean.svg",
+    "category": "Nature",
+    "sentences": [
+      "The ocean is wide and deep.",
+      "Waves move in the ocean."
+    ]
+  },
+  {
+    "answer": "forest",
+    "image": "assets/forest.svg",
+    "category": "Nature",
+    "sentences": [
+      "The forest is full of trees.",
+      "Animals live in the forest."
+    ]
+  },
+  {
+    "answer": "tree",
+    "image": "assets/tree.svg",
+    "category": "Nature",
+    "sentences": [
+      "A tree gives shade.",
+      "Leaves grow on a tree."
+    ]
+  },
+  {
+    "answer": "flower",
+    "image": "assets/flower.svg",
+    "category": "Nature",
+    "sentences": [
+      "The flower smells sweet.",
+      "Flowers bloom in spring."
+    ]
+  },
+  {
+    "answer": "leaf",
+    "image": "assets/leaf.svg",
+    "category": "Nature",
+    "sentences": [
+      "A leaf falls in autumn.",
+      "The leaf is green."
+    ]
+  },
+  {
+    "answer": "fire",
+    "image": "assets/fire.svg",
+    "category": "Nature",
+    "sentences": [
+      "Fire gives heat and light.",
+      "Be careful with fire."
+    ]
+  },
+  {
+    "answer": "rock",
+    "image": "assets/rock.svg",
+    "category": "Nature",
+    "sentences": [
+      "The rock is hard.",
+      "We sat on a big rock."
+    ]
+  },
+  {
+    "answer": "sand",
+    "image": "assets/sand.svg",
+    "category": "Nature",
+    "sentences": [
+      "Sand is soft on the beach.",
+      "My shoes are full of sand."
+    ]
+  },
+  {
+    "answer": "island",
+    "image": "assets/island.svg",
+    "category": "Nature",
+    "sentences": [
+      "An island is surrounded by water.",
+      "We visited a small island."
+    ]
+  },
+  {
+    "answer": "bridge",
+    "image": "assets/bridge.svg",
+    "category": "Nature",
+    "sentences": [
+      "The bridge crosses the river.",
+      "Cars drive over the bridge."
+    ]
+  },
+  {
+    "answer": "soccer",
+    "image": "assets/soccer.svg",
+    "category": "Sports",
+    "sentences": [
+      "I play soccer after school.",
+      "We kick the ball into the goal."
+    ]
+  },
+  {
+    "answer": "basketball",
+    "image": "assets/basketball.svg",
+    "category": "Sports",
+    "sentences": [
+      "Basketball uses a hoop.",
+      "He dribbles the basketball."
+    ]
+  },
+  {
+    "answer": "baseball",
+    "image": "assets/baseball.svg",
+    "category": "Sports",
+    "sentences": [
+      "We play baseball in the park.",
+      "He hit the baseball far."
+    ]
+  },
+  {
+    "answer": "tennis",
+    "image": "assets/tennis.svg",
+    "category": "Sports",
+    "sentences": [
+      "Tennis uses a racket.",
+      "She serves the tennis ball."
+    ]
+  },
+  {
+    "answer": "badminton",
+    "image": "assets/badminton.svg",
+    "category": "Sports",
+    "sentences": [
+      "Badminton uses a shuttlecock.",
+      "We play badminton indoors."
+    ]
+  },
+  {
+    "answer": "swimming",
+    "image": "assets/swimming.svg",
+    "category": "Sports",
+    "sentences": [
+      "Swimming is good exercise.",
+      "She can swim fast."
+    ]
+  },
+  {
+    "answer": "running",
+    "image": "assets/running.svg",
+    "category": "Sports",
+    "sentences": [
+      "Running makes my heart strong.",
+      "He goes running every morning."
+    ]
+  },
+  {
+    "answer": "cycling",
+    "image": "assets/cycling.svg",
+    "category": "Sports",
+    "sentences": [
+      "Cycling is fun and healthy.",
+      "I ride my bike to school."
+    ]
+  },
+  {
+    "answer": "skating",
+    "image": "assets/skating.svg",
+    "category": "Sports",
+    "sentences": [
+      "Skating is slippery.",
+      "He is learning to skate."
+    ]
+  },
+  {
+    "answer": "hiking",
+    "image": "assets/hiking.svg",
+    "category": "Sports",
+    "sentences": [
+      "Hiking is walking in nature.",
+      "We went hiking on Saturday."
+    ]
+  },
+  {
+    "answer": "camping",
+    "image": "assets/camping.svg",
+    "category": "Sports",
+    "sentences": [
+      "Camping is sleeping in a tent.",
+      "We cooked food while camping."
+    ]
+  },
+  {
+    "answer": "drawing",
+    "image": "assets/drawing.svg",
+    "category": "Sports",
+    "sentences": [
+      "Drawing helps me relax.",
+      "I like drawing animals."
+    ]
+  },
+  {
+    "answer": "reading",
+    "image": "assets/reading.svg",
+    "category": "Sports",
+    "sentences": [
+      "Reading improves vocabulary.",
+      "I read for 20 minutes daily."
+    ]
+  },
+  {
+    "answer": "cooking",
+    "image": "assets/cooking.svg",
+    "category": "Sports",
+    "sentences": [
+      "Cooking is a useful skill.",
+      "I help my mom cooking dinner."
+    ]
+  },
+  {
+    "answer": "house",
+    "image": "assets/house.svg",
+    "category": "Home",
+    "sentences": [
+      "My house is near the school.",
+      "The house has a small garden."
+    ]
+  },
+  {
+    "answer": "door",
+    "image": "assets/door.svg",
+    "category": "Home",
+    "sentences": [
+      "Please close the door.",
+      "The door is brown."
+    ]
+  },
+  {
+    "answer": "window",
+    "image": "assets/window.svg",
+    "category": "Home",
+    "sentences": [
+      "Open the window for fresh air.",
+      "I see the sky through the window."
+    ]
+  },
+  {
+    "answer": "bed",
+    "image": "assets/bed.svg",
+    "category": "Home",
+    "sentences": [
+      "I sleep on my bed.",
+      "My bed is comfortable."
+    ]
+  },
+  {
+    "answer": "chair",
+    "image": "assets/chair.svg",
+    "category": "Home",
+    "sentences": [
+      "Sit on the chair.",
+      "The chair has four legs."
+    ]
+  },
+  {
+    "answer": "table",
+    "image": "assets/table.svg",
+    "category": "Home",
+    "sentences": [
+      "Dinner is on the table.",
+      "The table is made of wood."
+    ]
+  },
+  {
+    "answer": "kitchen",
+    "image": "assets/kitchen.svg",
+    "category": "Home",
+    "sentences": [
+      "We cook in the kitchen.",
+      "The kitchen smells like soup."
+    ]
+  },
+  {
+    "answer": "bathroom",
+    "image": "assets/bathroom.svg",
+    "category": "Home",
+    "sentences": [
+      "Wash your hands in the bathroom.",
+      "The bathroom is clean."
+    ]
+  },
+  {
+    "answer": "shower",
+    "image": "assets/shower.svg",
+    "category": "Home",
+    "sentences": [
+      "I take a shower at night.",
+      "The shower water is warm."
+    ]
+  },
+  {
+    "answer": "toothbrush",
+    "image": "assets/toothbrush.svg",
+    "category": "Home",
+    "sentences": [
+      "Use a toothbrush twice a day.",
+      "My toothbrush is blue."
+    ]
+  },
+  {
+    "answer": "clock",
+    "image": "assets/clock.svg",
+    "category": "Home",
+    "sentences": [
+      "The clock shows the time.",
+      "The clock is on the wall."
+    ]
+  },
+  {
+    "answer": "phone",
+    "image": "assets/phone.svg",
+    "category": "Home",
+    "sentences": [
+      "My phone can call my friends.",
+      "Please don’t use your phone in class."
+    ]
+  },
+  {
+    "answer": "camera",
+    "image": "assets/camera.svg",
+    "category": "Home",
+    "sentences": [
+      "I took a photo with my camera.",
+      "The camera has a big lens."
+    ]
+  },
+  {
+    "answer": "market",
+    "image": "assets/market.svg",
+    "category": "Home",
+    "sentences": [
+      "We buy fruit at the market.",
+      "The market is busy today."
+    ]
+  },
+  {
+    "answer": "money",
+    "image": "assets/money.svg",
+    "category": "Home",
+    "sentences": [
+      "Save your money in a jar.",
+      "Money can buy things."
+    ]
+  },
+  {
+    "answer": "gift",
+    "image": "assets/gift.svg",
+    "category": "Home",
+    "sentences": [
+      "I gave a gift to my friend.",
+      "The gift was wrapped in paper."
+    ]
+  },
+  {
+    "answer": "ticket",
+    "image": "assets/ticket.svg",
+    "category": "Travel",
+    "sentences": [
+      "Keep your ticket safe.",
+      "I bought a train ticket."
+    ]
+  },
+  {
+    "answer": "bus",
+    "image": "assets/bus.svg",
+    "category": "Travel",
+    "sentences": [
+      "The bus stops here.",
+      "I ride the bus to the city."
+    ]
+  },
+  {
+    "answer": "train",
+    "image": "assets/train.svg",
+    "category": "Travel",
+    "sentences": [
+      "The train is fast.",
+      "We took the train to Seoul."
+    ]
+  },
+  {
+    "answer": "plane",
+    "image": "assets/plane.svg",
+    "category": "Travel",
+    "sentences": [
+      "The plane flies in the sky.",
+      "I want to ride a plane someday."
+    ]
+  },
+  {
+    "answer": "robot",
+    "image": "assets/robot.svg",
+    "category": "Technology",
+    "sentences": [
+      "The robot can move its arms.",
+      "A robot follows commands."
+    ]
+  },
+  {
+    "answer": "internet",
+    "image": "assets/internet.svg",
+    "category": "Technology",
+    "sentences": [
+      "I use the internet to learn.",
+      "The internet connects people."
+    ]
+  },
+  {
+    "answer": "email",
+    "image": "assets/email.svg",
+    "category": "Technology",
+    "sentences": [
+      "I sent an email to my teacher.",
+      "Check your email for messages."
+    ]
+  },
+  {
+    "answer": "password",
+    "image": "assets/password.svg",
+    "category": "Technology",
+    "sentences": [
+      "A password keeps your account safe.",
+      "Do not share your password."
+    ]
+  },
+  {
+    "answer": "website",
+    "image": "assets/website.svg",
+    "category": "Technology",
+    "sentences": [
+      "This website has many videos.",
+      "We made a website for our class."
+    ]
+  },
+  {
+    "answer": "video",
+    "image": "assets/video.svg",
+    "category": "Technology",
+    "sentences": [
+      "I watched a short video.",
+      "The video explains the topic."
+    ]
+  },
+  {
+    "answer": "keyboard",
+    "image": "assets/keyboard.svg",
+    "category": "Technology",
+    "sentences": [
+      "Type on the keyboard.",
+      "The keyboard has many keys."
+    ]
+  },
+  {
+    "answer": "mouse",
+    "image": "assets/mouse.svg",
+    "category": "Technology",
+    "sentences": [
+      "Use the mouse to click.",
+      "My mouse is wireless."
+    ]
+  },
+  {
+    "answer": "screen",
+    "image": "assets/screen.svg",
+    "category": "Technology",
+    "sentences": [
+      "The screen is bright.",
+      "Do not sit too close to the screen."
+    ]
+  },
+  {
+    "answer": "battery",
+    "image": "assets/battery.svg",
+    "category": "Technology",
+    "sentences": [
+      "Charge the battery at night.",
+      "The battery is low."
+    ]
+  }
+]
