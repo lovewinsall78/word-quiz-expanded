@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>초6 영단어 이미지 퀴즈</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">📷 초6 영단어 이미지 퀴즈</div>
+    <div class="top-actions">
+      <button id="btnHome" class="btn ghost" type="button" aria-label="홈으로">홈</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Home / Mode Select -->
+    <section id="screenHome" class="card screen active" aria-labelledby="homeTitle">
+      <h1 id="homeTitle">오늘은 어떤 방식으로 공부할까요?</h1>
+      <p class="sub">이미지를 보고 단어를 입력해요. 2번 틀리면 예문 힌트가 나와요!</p>
+
+      <div class="grid2">
+        <div class="panel">
+          <h2>모드</h2>
+          <label class="opt">
+            <input type="radio" name="mode" value="all" checked />
+            <span><b>전체 퀴즈</b> (랜덤)</span>
+          </label>
+          <label class="opt">
+            <input type="radio" name="mode" value="review" />
+            <span><b>오답노트</b> (틀린 단어만)</span>
+          </label>
+          <div class="hintline">오답노트는 먼저 ‘전체 퀴즈’를 풀어야 생겨요.</div>
+        </div>
+
+        <div class="panel">
+          <h2>주제(카테고리)</h2>
+          <select id="categorySelect" class="select">
+            <option value="ALL">전체</option>
+          </select>
+          <div class="hintline">예: Animals / Food / School / Feelings</div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>설정</h2>
+        <div class="grid2 tight">
+          <label class="opt">
+            <input id="chkAutoNext" type="checkbox" checked />
+            <span>정답이면 <b>자동으로 다음 문제</b> (1.1초 후)</span>
+          </label>
+          <label class="opt">
+            <input id="chkShowLen" type="checkbox" checked />
+            <span>3번째 오답부터 <b>글자수 힌트</b> 보여주기</span>
+          </label>
+        </div>
+        <div class="grid2 tight">
+          <label class="opt">
+            <input id="chkShuffleEach" type="checkbox" checked />
+            <span>시작할 때 <b>문제 섞기</b></span>
+          </label>
+          <label class="opt">
+            <input id="chkCaseStrict" type="checkbox" />
+            <span><b>대소문자 구분</b> (기본은 구분 안 함)</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row end">
+        <button id="btnStart" class="btn primary" type="button">시작하기</button>
+      </div>
+    </section>
+
+    <!-- Quiz Screen -->
+    <section id="screenQuiz" class="card screen" aria-labelledby="quizTitle">
+      <div class="quiz-head">
+        <h1 id="quizTitle">이미지 보고 영단어 맞히기</h1>
+        <div class="scorebox">
+          <div id="scoreText" class="score">정답 0 / 시도 0</div>
+          <div id="progressText" class="progress">1 / 1</div>
+        </div>
+      </div>
+
+      <div class="img-wrap">
+        <img id="quizImage" alt="quiz image" />
+      </div>
+
+      <div class="row">
+        <input id="answerInput" autocomplete="off" placeholder="영단어를 입력하세요" />
+        <button id="submitBtn" class="btn dark" type="button">제출</button>
+      </div>
+
+      <div id="result" class="result" role="status" aria-live="polite"></div>
+
+      <section class="hint">
+        <h2>힌트</h2>
+        <div id="lenHint" class="lenhint"></div>
+        <ul id="hintList"></ul>
+      </section>
+
+      <div class="row bottom">
+        <button id="nextBtn" class="btn" type="button" disabled>다음 문제</button>
+        <button id="finishBtn" class="btn ghost" type="button">그만하기</button>
+      </div>
+    </section>
+
+    <!-- Finish Screen -->
+    <section id="screenFinish" class="card screen" aria-labelledby="finishTitle">
+      <h1 id="finishTitle">학습 결과</h1>
+      <div id="summaryBox" class="summary"></div>
+
+      <div class="panel">
+        <h2>오답노트</h2>
+        <div class="hintline">틀린 단어는 자동으로 저장돼요(이 브라우저에만 저장).</div>
+        <div id="wrongList" class="wronglist"></div>
+        <div class="row end">
+          <button id="btnStartReview" class="btn primary" type="button">오답노트 풀기</button>
+        </div>
+      </div>
+
+      <div class="row end">
+        <button id="btnBackHome" class="btn ghost" type="button">홈으로</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>GitHub Pages로 배포 가능한 정적 웹앱</span>
+    <span class="dot">•</span>
+    <span>데이터: <code>data/words.json</code></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
