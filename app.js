@@ -36,6 +36,7 @@ const el = {
   result: document.getElementById("result"),
   hintList: document.getElementById("hintList"),
   lenHint: document.getElementById("lenHint"),
+  speakBtn: document.getElementById("speakBtn"),
   scoreText: document.getElementById("scoreText"),
   progressText: document.getElementById("progressText"),
   summaryBox: document.getElementById("summaryBox"),
@@ -79,6 +80,40 @@ function showScreen(which) {
 function randPick(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
+
+function speakWord(word) {
+  // Uses the browser's built-in Text-to-Speech (Web Speech API).
+  // Works on most modern browsers. On iOS Safari, user gesture is required (button click OK).
+  if (!("speechSynthesis" in window)) {
+    alert("이 브라우저는 발음 기능을 지원하지 않아요.");
+    return;
+  }
+  const text = (word || "").trim();
+  if (!text) return;
+
+  // Stop any ongoing speech
+  window.speechSynthesis.cancel();
+
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "en-US";
+  u.rate = 0.9;   // slightly slower for learners
+  u.pitch = 1.0;
+  u.volume = 1.0;
+
+  // Try to pick an English voice if available
+  const voices = window.speechSynthesis.getVoices ? window.speechSynthesis.getVoices() : [];
+  const enVoice = voices.find(v => /en(-|_)?(US|GB)?/i.test(v.lang)) || voices.find(v => /English/i.test(v.name));
+  if (enVoice) u.voice = enVoice;
+
+  window.speechSynthesis.speak(u);
+}
+
+function speakCurrent() {
+  const q = sessionWords[qIndex];
+  if (!q) return;
+  speakWord(q.answer);
+}
+
 
 function normalize(s, caseStrict) {
   const t = (s || "").trim();
@@ -352,6 +387,7 @@ function wireUI() {
   el.btnStartReview.addEventListener("click", () => startQuiz({ forceMode: "review" }));
 
   el.submitBtn.addEventListener("click", checkAnswer);
+  el.speakBtn.addEventListener("click", speakCurrent);
   el.nextBtn.addEventListener("click", nextQuestion);
   el.finishBtn.addEventListener("click", finishQuiz);
 
